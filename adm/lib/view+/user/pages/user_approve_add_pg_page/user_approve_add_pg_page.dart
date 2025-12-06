@@ -182,6 +182,13 @@ class UserApproveAddPgPage extends StatelessWidget {
                     ),
                     SizedBox(height: 1.5.h),
 
+                    UserPgTextField(
+                      hintText: "Location",
+                      icon: Icons.location_on_rounded,
+                      suffixIcon: Icons.edit,
+                    ),
+                    SizedBox(height: 1.5.h),
+
                     // Image Upload UI + edit icon
                     Container(
                       width: double.infinity,

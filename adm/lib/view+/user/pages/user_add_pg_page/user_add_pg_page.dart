@@ -167,6 +167,12 @@ class UserAddPgPage extends StatelessWidget {
                     ),
                     SizedBox(height: 1.5.h),
 
+                    const UserPgTextField(
+                      hintText: "Location",
+                      icon: Icons.location_on_rounded,
+                    ),
+                    SizedBox(height: 1.5.h),
+
                     // Image upload placeholder (UI only)
                     Container(
                       width: double.infinity,
