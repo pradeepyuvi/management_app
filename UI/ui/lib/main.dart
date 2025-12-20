@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'home_page.dart';
-import 'payment_page.dart';
-import 'room_page.dart';
+import 'dashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, deviceType) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: const RoomsPage(),
+          home: const DashboardPage(),
         );
       },
     );

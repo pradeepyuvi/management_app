@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sizer/sizer.dart';
 import '../pg_home_bottom_bar.dart';
 
 class HomePage extends StatefulWidget {
